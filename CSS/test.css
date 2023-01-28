@@ -5,11 +5,9 @@
     margin: 0;
 }
 body{
-    background-image:url("/IMAGES/me.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #29323F;
     font-family: 'PT Serif', serif;
-   background-position: top;
+   
     color: white;
       
 }
@@ -43,13 +41,17 @@ span{
     background-color: rgb(109, 108, 108);
 }
 /* ============================================================================ */
+.main{
+    display: flex;
+    justify-content: space-around;
+}
 .about{
     display: flex;
     justify-content: space-around;
     margin-top: 305px;
     letter-spacing: 2px;
     line-height: 22px;
-    background-color: rgba(0,0,0,0.3);
+   
 }
 
 .about h5{
