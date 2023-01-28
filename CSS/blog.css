@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+span{color: red;}
+.header{
+    background-color:#29323F;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 20px;
+}
+.header nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.header nav ul li{
+    padding: 30px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.header nav ul li:hover{
+    background-color: rgb(109, 108, 108);
+}
+.my_project{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    
+
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(1,350px);
+    grid-template-columns: repeat(4,410px);
+    margin: 150px;
+    margin-left: 150px;
+    color:rgb(0, 0, 0);
+    grid-gap: 30px;
+
+  
+}
+.grid{
+    background-color:#ffffff;
+   border: 2px solid black;
+   border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+  padding-bottom: 30px;
+}
+.grid p{
+    padding: 25px 0px 0px 25px;
+}
+.grid button{
+    margin-top: 50px;
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.grid button:hover{
+    transform: scale(1.3);}
+
+.grid:hover{
+    transform: scale(1.3);
+    color: white;
+    background-color: 
+    #8ea1bda6;
+}
