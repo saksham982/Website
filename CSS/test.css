@@ -77,6 +77,82 @@ span{
     color: black;
 }
 /* ============================================================================ */
+.my_project{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white ;
+    color: black;
+    width: 100%;
+    
 
+}
+.my_project img{
+width: 500px;
+}
+.my_project1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #29323F;
+    color: rgb(255, 255, 255);
+    
+
+}
+.text{
+    display: flex;
+flex-direction: column;
+align-content: flex-start;
+
+align-items: center;}
+.container{
+    display: grid;
+    grid-template-rows: repeat(1,350px);
+    grid-template-columns: repeat(4,410px);
+    margin: 150px;
+    margin-left: 550px;
+    color:rgb(0, 0, 0);
+    grid-gap: 30px;
+}
+.container1{
+    display: grid;
+    grid-template-rows: repeat(1,350px);
+    grid-template-columns: repeat(4,410px);
+    margin: 150px;
+    margin-left: 10px;
+    color:rgb(0, 0, 0);
+    grid-gap: 30px;
+}
+.grid{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+    padding-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.grid p{
+    padding: 25px 0px 0px 25px;
+}
+.grid button{
+    margin-top: 50px;
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.grid button:hover{
+    transform: scale(1.3);}
+
+    .grid:hover{
+        transform: scale(1.3);
+        background-color: #8ea1bda6;
+    
+    }
 
 
