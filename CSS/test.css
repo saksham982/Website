@@ -156,3 +156,18 @@ align-items: center;}
     }
 
 
+ .education{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 80px;
+    }
+.clzpic img{
+    width: 90%;
+    height: auto;
+}.about1{
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-top: 205px;
+}
