@@ -3,11 +3,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+   
 }
 body{
     background-color: #29323F;
     font-family: 'PT Serif', serif;
-   
+    max-width: 100%;
+    overflow-x: hidden;
     color: white;
       
 }
@@ -15,9 +17,10 @@ span{
     color: red;
 }
 .header{
-    background-color:rgba(0, 0, 0, 0.3);
+    /* background-color:rgba(0, 0, 0, 0.3); */
     color: rgb(255, 255, 255);
     padding: 4px;
+    overflow: hidden;
 }
 .header nav{
     display: flex;
@@ -44,6 +47,7 @@ span{
 .main{
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 .about{
     display: flex;
@@ -86,6 +90,7 @@ span{
     background-color: white ;
     color: black;
     width: 100%;
+    overflow: hidden;
     
 
 }
