@@ -176,3 +176,19 @@ align-items: center;}
     line-height: 22px;
     margin-top: 205px;
 }
+#connect h2{
+    text-align: center;
+}
+.medias{
+    display: flex;
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.medias a{
+    padding: 15px;
+}
+.medias a img{
+    width: 50px;
+}
